@@ -21,9 +21,55 @@ main {
   height: 70%;
   background-color: #ffffff;
   border-radius: 15px;
-  box-shadow: 0 -3em 3em rgba(145, 145, 145, 0.3),
-  0 0 0 2px white,
-  0.3em 0.3em 1em rgba(12, 11, 11, 0.6);;
+}
+.contact-container {
+  border-radius: 15px 0 0 15px;
+  height: 100%;
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.87);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.8rem;
+  position: relative;
+}
+
+.upper {
+  height: 70%;
+  background-color: #2E7D32;
+  padding-left: 20px;
+}
+
+#push {
+  height: 60%;
+}
+
+a, a:hover, a:focus, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.lower {
+  background-color: #2E7D32;
+  height: calc(30% - 15px);
+  padding-left: 20px;
+}
+
+.social-media {
+  width: max-content;
+}
+
+.social-media:hover {
+  cursor: pointer;
+}
+
+
+.social-media > a {
+  margin-right: 7px;
+  display: inline;
 }
 
 /* This is an example CSS file, feel free to remove/edit it anytime */

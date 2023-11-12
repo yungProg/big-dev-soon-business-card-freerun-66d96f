@@ -80,7 +80,7 @@ a, a:hover, a:focus, a:visited, a:active {
 }
 
 .image-container {
-  width: 200px;
+  width: 30%;
   height: 70%;
   position: absolute;
   left: 25%;
@@ -112,6 +112,47 @@ img {
 .technologies li {
   padding-bottom: 5px;
 }
+
+#box1 {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 22%;
+  top: 20%;
+  z-index: 3;
+}
+
+#box2 {
+  width: 40px;
+  height: 20px;
+  background-color: #888888;
+  position: absolute;
+  left: 52%;
+  top: 15%;
+  z-index: 3;
+}
+
+#box3 {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 27%;
+  top: 77%;
+  z-index: 3;
+}
+
+#box4 {
+  width: 40px;
+  height: 40px;
+  background-color: #2E7D32;
+  position: absolute;
+  left: 52%;
+  top: 76%;
+  z-index: 1;
+  border-radius: 50%;
+}
 /* This is an example CSS file, feel free to remove/edit it anytime */
 .footer {
   position: absolute;
@@ -125,6 +166,7 @@ img {
   font-size: 14px;
   font-weight: bold;
   text-decoration: none;
+  display: inline;
 }
 .footer span {
   font-size: 14px;
